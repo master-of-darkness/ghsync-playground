@@ -1,0 +1,33 @@
+{
+    "name": "g-h-sync/g-h-sync",
+    "description": "g-h-sync/g-h-sync",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0",
+        "czproject/git-php": "^4.2"
+    },
+    "extra": {
+        "shopware-plugin-class": "GHSync\\GHSync",
+        "label": {
+            "de-DE": "GHSync",
+            "en-GB": "GHSync"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "GHSync\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GHSync\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/runtime": true
+        }
+    }
+}

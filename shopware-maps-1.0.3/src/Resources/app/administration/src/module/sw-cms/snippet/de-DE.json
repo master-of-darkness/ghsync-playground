@@ -1,0 +1,33 @@
+{
+    "sas-maps": {
+        "elements": {
+            "config": {
+                "tab": {
+                    "settings": "Einstellungen",
+                    "popup": "Popup Inhalt"
+                },
+                "label": {
+                    "mapbox-style": "Mapbox Style",
+                    "latitude": "Breitengrad",
+                    "longitude": "Längengrad",
+                    "popup-content": "Popup Inhalt"
+                },
+                "error": {
+                    "title": "Mapbox API Key",
+                    "message": "Dein  Mapbox API ist falsch oder fehlt. Bitte hinterlege einen validen API Key",
+                    "goToLinkText": "Zu Mapbox Plugin Einstellungen"
+                }
+            },
+            "mapsElement": {
+                "label": "Maps Element",
+                "zoomLevel": "Zoom level",
+                "zoomLevelSelect": "Zoom Level auswählen"
+            }
+        },
+        "blocks": {
+            "maps": {
+                "label": "Karte / Maps"
+            }
+        }
+    }
+}

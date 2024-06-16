@@ -1,0 +1,29 @@
+{
+  "name": "sas/maps",
+  "description": "Maps plugin",
+  "version": "v1.0.3",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Shape & Shift",
+      "role": "Manufacturer",
+      "homepage": "https://shapeandshift.dev"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sas\\Maps\\": "src/"
+    }
+  },
+  "require": {
+    "shopware/core": "*"
+  },
+  "extra": {
+    "shopware-plugin-class": "Sas\\Maps\\SasMaps",
+    "label": {
+      "de-DE": "Maps",
+      "en-GB": "Maps"
+    }
+  }
+}
